@@ -1,0 +1,200 @@
+/*
+Theme Name: Twenty Nineteen Flat
+Theme URI: http://xtremelysocial.com/wordpress/flat/
+Description: Child theme for WordPress' Twenty Nineteen theme
+Author: XtremelySocial
+Author url: http://xtremelysocial.com
+Requires at least: WordPress 4.9.6
+Version: 1.0
+License: GNU General Public License
+License URI: http://www.opensource.org/licenses/GPL-3.0
+Template: twentynineteen
+Template Version: 1.0
+Tags: one-column, right-sidebar, left-sidebar, fluid-layout, responsive-layout, custom-header, custom-menu, featured-images, featured-image-header, full-width-template, flexible-header, theme-options, sticky-post, threaded-comments, light, translation-ready, rtl-language-support, custom-background
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Editor Widths
+# Typography
+# Elements
+# Forms and Buttons
+# Navigation
+	## Links
+	## Menus
+# Content
+	## Header
+	## Widget Areas
+	## Posts and pages
+	## Comments
+	## Footer
+# Media
+	## Captions and Galleries
+# Blocks, Widgets & Plugins
+	## Blocks
+	## Widget Areas
+	## Plugins
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Editor Widths
+--------------------------------------------------------------*/
+/*
+.entry .entry-content,
+.entry .entry-summary {
+  max-width: calc(100% - (2 * 1rem));
+  margin: 0 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .entry .entry-content,
+  .entry .entry-summary {
+    max-width: 80%;
+    margin: 0 10%;
+    padding: 0 60px;
+  }
+*/
+/* Blocks */
+/* !Block styles */
+/*.entry .entry-content > *,
+.entry .entry-summary > * {
+  margin: 32px 0;
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .entry .entry-content > *,
+  .entry .entry-summary > * {
+    max-width: calc(8 * (100vw / 12) - 28px);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .entry .entry-content > *,
+  .entry .entry-summary > * {
+    margin: 32px 0;
+  }
+}
+
+@media only screen and (min-width: 1168px) {
+  .entry .entry-content > *,
+  .entry .entry-summary > * {
+    max-width: calc(6 * (100vw / 12) - 28px);
+  }
+}
+@media only screen and (min-width: 768px) {
+  .entry .entry-content > *.alignwide,
+  .entry .entry-summary > *.alignwide {
+    width: 100%;
+    max-width: 100%;
+  }
+}*/
+
+/*.wp-block {
+    max-width: 100%;
+}*/
+
+@media only screen and (min-width: 768px) {
+	.wp-block {
+    	max-width: calc(8 * (100vw / 12) - 28px);
+  	}
+}
+
+@media only screen and (min-width: 1168px) {
+	.wp-block {
+    	max-width: calc(6 * (100vw / 12) - 28px);
+  	}
+}
+
+@media only screen and (min-width: 768px) {
+	.wp-block[data-align="wide"] {
+		width: 100%;
+    	max-width: 100%;
+    }
+}
+.wp-block[data-align="full"] {
+    max-width: none;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+
+/* For style-editor used by the new Gutenberg editor */
+/*h1:before,
+h2:before {
+  content: "";
+}*/
+
+/*--------------------------------------------------------------
+# Forms and Buttons
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+## Widget Areas
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Captions and Galleries
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Blocks, Widgets, and Plugins
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Blocks
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Widgets
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+## Plugins
+--------------------------------------------------------------*/
